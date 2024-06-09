@@ -10,7 +10,7 @@ LAB12-MAIN/
 │   ├── Dockerfile
 │   ├── style.csv  
 │ 
-├── images/
+├── img/
 │   ├── PhpAdmin.png
 │   ├── RunResult.png
 │   ├── WebResult.png
@@ -36,12 +36,12 @@ echo -n "testpassword" > secrets/mysql_user_password
 ```
 docker-compose up -d --build
 ```
-![Docker Hub](images/RunResult.png)
+![Docker Hub](img/RunResult.png)
 
 
 ## 1. Results PHP
 Aplikacja PHP, która wyświetla informacje o użytkownikach z bazy danych MySQL.
-![Docker Hub](images/WebResult.png)
+![Docker Hub](img/WebResult.png)
 
 ## 2. Results PhpMyAdmin
 Skorzystaj z poniższych danych logowania:
@@ -55,4 +55,4 @@ Hasło: rootpassword
 Użytkownik: user
 Hasło: testpassword
 ```
-![Docker Hub](images/PhpAdmin.png)
+![Docker Hub](img/PhpAdmin.png)
