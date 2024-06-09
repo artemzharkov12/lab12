@@ -45,6 +45,7 @@ Aplikacja PHP, która wyświetla informacje o użytkownikach z bazy danych MySQL
 
 ## 2. Results PhpMyAdmin
 Skorzystaj z poniższych danych logowania:
+
 1.
 ```
 Użytkownik: root
